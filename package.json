@@ -1,0 +1,29 @@
+{
+  "name": "napi-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmake98/napi-native.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/hmake98/napi-native/issues"
+  },
+  "homepage": "https://github.com/hmake98/napi-native#readme",
+  "devDependencies": {
+    "node-gyp": "^3.7.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.3.0"
+  }
+}
